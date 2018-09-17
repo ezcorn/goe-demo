@@ -1,0 +1,7 @@
+{
+  "author": "ezcorn",
+  "vendor": "goe-example",
+  "gateway": "localhost:9339",
+  "actions": [
+  ]
+}
