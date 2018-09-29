@@ -15,5 +15,5 @@ func main() {
 		l.Relate("/helloWorld403")
 	})
 
-	goe.InitServer(9339)
+	goe.InitServer()
 }
