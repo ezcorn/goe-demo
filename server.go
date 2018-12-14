@@ -12,5 +12,5 @@ func main() {
 	goe.RegAction(action.HelloWorld403Action)
 	goe.RegListen(listen.JumpToHelloWorldListen)
 	goe.RelateActionToListen("/helloWorld403", "jumpToHelloWorld")
-	goe.InitServer(serverName)
+	goe.InitServer(serverName, 9339)
 }
